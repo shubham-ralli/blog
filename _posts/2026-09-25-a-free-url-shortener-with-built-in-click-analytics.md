@@ -2,7 +2,7 @@
 layout: post
 title: "A free URL shortener with built-in click analytics"
 date: 2026-09-25 16:40:28 +0530
-categories: tools
+permalink: /url-shortener/
 description: "Shorten any link and see how it performs. Custom alias, click charts, referrer and device data, all free with no signup."
 ---
 

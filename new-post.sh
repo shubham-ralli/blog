@@ -12,7 +12,8 @@ cat > "$file" <<EOF
 layout: post
 title: "$title"
 date: $ts
-categories: general
+permalink: /$slug/
+description: ""
 ---
 
 Write body here.
