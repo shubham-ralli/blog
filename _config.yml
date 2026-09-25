@@ -7,6 +7,8 @@ url: "https://shubham-ralli.github.io"
 baseurl: "/blog"
 
 theme: minima
+minima:
+  skin: dark
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
