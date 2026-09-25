@@ -10,6 +10,8 @@ Most link shorteners give you a short link and stop there. You paste a long URL,
 
 You can try it here: [Pixellize URL Shortener](https://pixellize.io/url-shortener).
 
+![Pixellize URL Shortener tool: shorten box with duration, long URL field, and custom alias]({{ '/assets/img/url-shortener.png' | relative_url }})
+
 ## What it does
 
 Paste any `http` or `https` link, pick how long it should live, and hit Shorten. You get a short link you can drop into a tweet, an email, or a WhatsApp message. No signup, no credit card, no email confirmation. The whole thing runs in the browser and takes about 5 seconds.
