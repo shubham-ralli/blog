@@ -1,0 +1,15 @@
+title: Pixellize Blog
+description: Notes on tools, web, and building things.
+author: Shubham Ralli
+
+# Project site served at https://shubham-ralli.github.io/blog
+url: "https://shubham-ralli.github.io"
+baseurl: "/blog"
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# posts per page defaults; minima lists all posts on home
+show_excerpts: true
