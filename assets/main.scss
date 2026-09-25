@@ -1,0 +1,40 @@
+---
+# Custom main.scss: import minima, then dark overrides.
+---
+
+@import "minima";
+
+/* ---- Dark theme overrides ---- */
+body { background-color: #121212; color: #e6e6e6; }
+
+a { color: #7db3ff; }
+a:visited { color: #b39ddb; }
+a:hover { color: #ffffff; }
+
+.site-header { background: #181818; border-top-color: #333; border-bottom-color: #2a2a2a; }
+.site-title, .site-title:visited { color: #f0f0f0; }
+.site-nav { background: transparent; }
+.site-nav .page-link { color: #e6e6e6; }
+@media screen and (max-width: 600px) {
+  .site-nav { background-color: #181818; border-color: #333; }
+}
+
+.page-content, main { background-color: #121212; }
+.post-meta { color: #9aa0a6; }
+.post-link { color: #7db3ff; }
+.post-title, .page-heading, .post-list-heading { color: #f0f0f0; }
+
+blockquote { color: #9aa0a6; border-left-color: #333; }
+pre, code { background-color: #1e1e1e; border-color: #333; color: #e6e6e6; }
+.highlight, .highlighter-rouge .highlight { background: #1e1e1e; }
+
+table { color: #d0d0d0; border-color: #333; }
+table tr:nth-child(even) { background-color: #1a1a1a; }
+table th { background-color: #1e1e1e; border-color: #333; }
+table td { border-color: #333; }
+
+hr { border-color: #333; }
+
+.site-footer { background: #181818; border-top-color: #2a2a2a; }
+.footer-heading, .footer-col-wrapper, .footer-col { color: #9aa0a6; }
+.svg-icon { fill: #9aa0a6; }

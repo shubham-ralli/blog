@@ -6,11 +6,8 @@ author: Shubham Ralli
 url: "https://shubham-ralli.github.io"
 baseurl: "/blog"
 
-remote_theme: jekyll/minima@v2.5.1
-minima:
-  skin: dark
+theme: minima
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
 
